@@ -1,0 +1,14 @@
+#Task 1:
+
+i = int(input('Enter number: '))
+if i%2 == 0:
+    print(i, 'is an even number.')
+else:
+    print(i, 'is an odd number')
+
+
+#Task 2:
+
+i = int(input('Enter number: '))
+if i<= 50:
+    print('The sum of numbers from 1 to', i, 'is:',sum(range(1,i+1)))
